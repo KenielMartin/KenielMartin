@@ -1,0 +1,11 @@
+ puts("\tENTER YOUR CHOICE<1-6>\n");
+ int i;
+ scanf("%d", &i);
+ while (i > 0 && i < 7) {
+  switch (i) {
+  case 1:ShowAll(); inquire(); break;
+  case 2:AddBook(); inquire(); break;
+  case 3:ModifyBook(); inquire(); break;
+  case 4:DeleteBook(); inquire(); break;
+  case 5:Querybook(); inquire(); break;
+  default:puts("enter error!please enter again\n"); exit
